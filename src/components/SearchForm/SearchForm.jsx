@@ -1,6 +1,6 @@
-import React from 'react';
-import lens from '../../images/lens.svg';
-import FilterCheckbox from '../FilterCheckbox/FilterCheckbox';
+import React from "react";
+import lens from "../../images/lens.svg";
+import FilterCheckbox from "../FilterCheckbox/FilterCheckbox";
 
 function SearchForm({
   onChange,
@@ -10,19 +10,21 @@ function SearchForm({
   checkbox,
 }) {
   return (
-    <div className='search'>
-      <div className='search__row'>
-        <form className='search__form' onSubmit={onSubmit}>
+    <div className="search">
+      <div className="search__row">
+        <form className="search__form" onSubmit={onSubmit}>
           <input
-            className='search__input'
-            placeholder='Фильм'
-            type='text'
+            className="search__input"
+            placeholder="Фильм"
+            type="text"
             onChange={onChange}
             value={searchText}
             required
           ></input>
+          <button className="search__button" type="submit">
+            Найти
+          </button>
         </form>
-        <button className='search__button' type='submit'>Найти</button>
       </div>
       <FilterCheckbox toggleCheckbox={toggleCheckbox} checkbox={checkbox} />
     </div>

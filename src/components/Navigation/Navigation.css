@@ -59,7 +59,7 @@
   opacity: 0.7;
 }
 
-.navigation__login_dark {
+.navigation__login_dark .navigation__link {
   color: #000000;
 }
 

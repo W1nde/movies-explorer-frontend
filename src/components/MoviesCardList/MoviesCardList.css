@@ -38,10 +38,11 @@
 
 .cards__more-films {
   margin: 80px auto 80px auto;
-  max-width: 320px;
+  max-width: 1140px;
   max-height: 36px;
   width: 100%;
   padding: 9px 0 11px 0;
+  color: #ffffff;
   background-color: #2f2f2f;
   border: 1px solid rgba(232, 232, 232, 1);
   border-radius: 5px;
