@@ -60,16 +60,14 @@
   transition: opacity 0.2s linear;
   align-self: center;
   padding: 10px 0 10px 10px;
-  position: relative;
-  right: -80px;
 }
 .search__button:hover {
   opacity: 0.5;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1210px) {
   .search {
-    max-width: 95%;
+    width: 90%;
   }
 
   @media screen and (max-width: 768px) {
